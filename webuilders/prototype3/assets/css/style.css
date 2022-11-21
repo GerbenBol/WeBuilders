@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(154, 71, 71, 0.75), rgba(0, 0, 0, 0.75)), url(background2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 35px 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-size: 20px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+
+}
+
+.navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+
+
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+button {
+    width: auto;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 1px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px soldid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+#onzeTuinen {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(154, 71, 71, 0.75)), url(bedroom2.jpg );
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#dinning {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    /* position: relative;top: 489px; */
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    background-image: linear-gradient(rgba(154, 71, 71, 0.75), rgba(0, 0, 0, 0.75)), url(dinning.jpg );
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kitchen {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    /* position: relative;top: 149px; */
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(154, 71, 71, 0.75)), url(kitchen.webp );
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#backyard {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    /* position: relative;top: 149px; */
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    background-image: linear-gradient(rgba(154, 71, 71, 0.75), rgba(0, 0, 0, 0.75)), url(backyard5.jpg );
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#copyright {
+    font-size: 11px;
+    position: relative;
+    bottom: -120px;
+    text-align: center;
+}
+
+.product1 {
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
+    border: solid black 1px;
+    transition: 0.3s;
+
+}
+
+.product1:hover {
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
+    border: solid black 1px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+
+#product1 img {
+    display: inline;
+}
+
+.productFoto {
+    width: 100%;
+}
+
+#bedroomtitel {
+    margin: 0%;
+}
+
+.product2 {
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
+    border: solid black 1px;
+    transition: 0.3s;
+    position: relative;
+    bottom: 380px;
+
+}
+
+.product2:hover {
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
+    border: solid black 1px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+#afbeeldingTekst {
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#link a {
+    color: rgb(0, 0, 99);
+    font-size: 15px;
+    font-family: graphik, arial, helvetica, sans-serif;
+}
+
+.banner2 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.content2 {
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-left: 60px;
+    position: relative;
+    bottom: 500px;
+}
+
+.imgBox{
+    width: 720px;
+    margin: 50px  auto 20px;
+}
+
+.imgBox img{
+    width: 100%;
+    border: 4px solid #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,.5);
+    max-width: 700px;
+}
+
+ul.thumb{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.thumb li{
+list-style: none;
+margin: 0 15px;
+}
+
+ul.thumb li img{
+    border: 4px solid #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,.5); 
+}
+
+#kasten{
+    position: relative;
+    bottom: 1050px;
+    float: left;
+    margin-left: 20px;
+}
+#kopen{
+    color: black;
+    position: relative;
+    bottom: 1000px;
+    width: 300px;
+    left: 50px;
+}
+
+#copyright2{
+    color: black;
+    position: relative;
+    right: 300px;
+    top: 950px;
+}
+
+#informatieProduct{
+    position: relative;
+    bottom: 1000px;
+}
