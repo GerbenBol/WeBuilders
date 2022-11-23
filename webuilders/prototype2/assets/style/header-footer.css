@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: linear-gradient(white, rgb(219, 246, 219));
+    background-image: linear-gradient(white, rgb(190, 255, 190));
 }
 h1{
     color: white;
@@ -98,4 +98,7 @@ header{
     align-items: center;
     justify-content: center;
     background-color: #7bba7b;
+}
+#footer-bottom > p{
+    font-size: 100%;
 }
