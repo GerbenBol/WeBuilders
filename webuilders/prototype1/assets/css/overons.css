@@ -1,0 +1,43 @@
+#header {
+    background-color: #dad9dd;
+    height: 30vh;
+    width: 100%;
+}
+
+#text {
+    margin-top: 7vh;
+    margin-right: 3%;
+    float: right;
+}
+
+#text h1, #text h6 {
+    margin: 0;
+}
+
+#text h1 {
+    float: right;
+}
+
+#container {
+    margin: 2% auto;
+    margin-bottom: 7%;
+    width: 60%;
+}
+
+#team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#container h2 {
+    margin: 0;
+}
+
+.member {
+    width: 25%;
+    margin: 15px;
+    height: 50vh;
+    background-color: #4c4b5c;
+    color: white;
+}

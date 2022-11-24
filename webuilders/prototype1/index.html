@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/standard.css">
+    <script src="assets/js/index.js" defer></script>
 </head>
 <body>
     <div id="navbar">
         <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Over ons</a></li>
-            <li><a href="#">Diensten</a></li>
-            <li><a href="#">Klantervaringen</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="overons.html">Over ons</a></li>
+            <li><a href="diensten.html">Diensten</a></li>
+            <li><a href="klantervaringen.html">Klantervaringen</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
 
@@ -28,16 +29,48 @@
         </div>
 
         <div id="container">
-            <div id="info">
-                <div id="place">
-                    <p><b>Waar werken wij?</b></p>
-                    <p class="infot">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et viverra mauris, nec euismod libero. Praesent nec feugiat leo, id ultricies lorem. Curabitur vulputate dignissim suscipit. Duis ut consectetur risus. Curabitur tincidunt neque at viverra pharetra. Donec dapibus tincidunt ultricies. Etiam euismod ex odio, eu ultrices erat maximus vitae. Integer volutpat ullamcorper enim, a viverra odio tincidunt vel. Donec in ullamcorper tellus, nec pharetra lorem. Nam imperdiet, lacus molestie faucibus sagittis, dui orci interdum urna, eget iaculis nunc dui eget dolor. Quisque sed velit eu erat vehicula pulvinar vitae vel mi. </p>
+            <div id="main">
+                <div id="info">
+                    <div id="place">
+                        <p class="headert"><b>Werkgebied</b></p>
+                        <p class="infot">Wij werken in de regio Utrecht, Zeist en de Bilt.</p>
+                    </div>
+
+                    <div id="contact">
+                        <p class="headert"><b>Telefoonnummer</b></p>
+                        <p class="infot">06-XXXXXXXX</p>
+                        <p class="headert"><b>Email</b></p>
+                        <p class="infot">hendrikhogendijkhoveniers<br>@gmail.com</p>
+                    </div>
+
+                    <div id="times">
+                        <p class="headert"><b>Openingstijden</b></p>
+                        <p class="infot">Maandag t/m vrijdag: 07.00 - 17.00 uur</p>
+                        <p class="infot">Zaterdag: Op afspraak</p>
+                        <p class="infot">Zondag: Gesloten</p>
+                    </div>
                 </div>
+
+                <div id="details">
+                    <p class="headert"><b>Over Hendrik</b></p>
+                    <img src="assets/img/hendrik.jpg" alt="Hendrik Hogendijk" width="150">
+                    <p class="infot">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et viverra mauris, nec euismod libero. Praesent nec feugiat leo, id ultricies lorem. Curabitur vulputate dignissim suscipit. Duis ut consectetur risus. Curabitur tincidunt neque at viverra pharetra. Donec dapibus tincidunt ultricies. Etiam euismod ex odio, eu ultrices erat maximus vitae. Integer volutpat ullamcorper enim, a viverra odio tincidunt vel. Donec in ullamcorper tellus, nec pharetra lorem. Nam imperdiet, lacus molestie faucibus sagittis, dui orci interdum urna, eget iaculis nunc dui eget dolor. Quisque sed velit eu erat vehicula pulvinar vitae vel mi.
+                    </p>
+                </div>
+            </div>
+            
+            <div id="slideshow">
+                <img src="assets/img/slideshow/slide1.png" id="img" alt="Slideshow couldn't be loaded">
             </div>
         </div>
     </div>
 
     <div id="footer">
+        <div id="stick">
+            <p id="copy">Hendrik Hogendijk Hoveniers &copy; 2022</p>
+        </div>
+    
         <div id="flex">
             <div class="footer-item">
                 <p>info</p>
@@ -46,8 +79,6 @@
                 <p>contact</p>
             </div>
         </div>
-
-        <p id="copy">Hendrik Hogendijk Hoveniers &copy; 2022</p>
     </div>
 </body>
 </html>
