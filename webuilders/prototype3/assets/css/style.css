@@ -8,7 +8,7 @@
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(154, 71, 71, 0.75), rgba(0, 0, 0, 0.75)), url(background2.jpg);
+    background-image: linear-gradient(rgba(34, 105, 1, 0.75), rgba(0, 0, 0, 0.75)), url(background2.jpg);
     background-size: cover;
     background-position: center;
 
@@ -48,7 +48,7 @@
     content: "";
     height: 3px;
     width: 0%;
-    background: #009688;
+    background: rgb(142, 56, 2);
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -83,7 +83,7 @@
 }
 
 button {
-    width: auto;
+    width: 200px;
     padding: 15px;
     text-align: center;
     margin: 20px 1px;
@@ -91,15 +91,16 @@ button {
     font-weight: bold;
     border: 2px soldid #009688;
     background: transparent;
-    color: #fff;
+    color: rgb(0, 0, 0);
     cursor: pointer;
+    background-color: lightgreen;
 }
 
 #onzeTuinen {
     background-color: white;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(154, 71, 71, 0.75)), url(bedroom2.jpg );
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(34, 105, 1, 0.75));
     text-align: center;
     font-size: 40px;
     color: #fff;
@@ -108,43 +109,14 @@ button {
     flex-wrap: wrap;
 }
 
-#dinning {
+#tuin2 {
     background-color: white;
     width: 100%;
     height: 100vh;
-    /* position: relative;top: 489px; */
     text-align: center;
     font-size: 40px;
     color: #fff;
-    background-image: linear-gradient(rgba(154, 71, 71, 0.75), rgba(0, 0, 0, 0.75)), url(dinning.jpg );
-    padding-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#kitchen {
-    background-color: white;
-    width: 100%;
-    height: 100vh;
-    /* position: relative;top: 149px; */
-    text-align: center;
-    font-size: 40px;
-    color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(154, 71, 71, 0.75)), url(kitchen.webp );
-    padding-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#backyard {
-    background-color: white;
-    width: 100%;
-    height: 100vh;
-    /* position: relative;top: 149px; */
-    text-align: center;
-    font-size: 40px;
-    color: #fff;
-    background-image: linear-gradient(rgba(154, 71, 71, 0.75), rgba(0, 0, 0, 0.75)), url(backyard5.jpg );
+    background-image: linear-gradient(rgba(34, 105, 1, 0.75), rgba(0, 0, 0, 0.75));
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -159,21 +131,22 @@ button {
 }
 
 .product1 {
-    height: 300px;
-    width: 220px;
-    background-color: white;
+    height: 400px;
+    width: 420px;
+    background-color: rgb(255, 255, 255);
     margin-top: 80px;
-    margin-left: 60px;
+    margin-left: 120px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
     border: solid black 1px;
     transition: 0.3s;
+    color: black;
 
 }
 
 .product1:hover {
-    height: 350px;
-    width: 270px;
-    background-color: white;
+    height: 450px;
+    width: 470px;
+    background-color: rgb(0, 101, 10);
     margin-top: 80px;
     margin-left: 60px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
@@ -182,52 +155,6 @@ button {
     transition: 0.3s;
 }
 
-
-#product1 img {
-    display: inline;
-}
-
-.productFoto {
-    width: 100%;
-}
-
-#bedroomtitel {
-    margin: 0%;
-}
-
-.product2 {
-    height: 300px;
-    width: 220px;
-    background-color: white;
-    margin-top: 80px;
-    margin-left: 60px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
-    border: solid black 1px;
-    transition: 0.3s;
-    position: relative;
-    bottom: 380px;
-
-}
-
-.product2:hover {
-    height: 350px;
-    width: 270px;
-    background-color: white;
-    margin-top: 80px;
-    margin-left: 60px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
-    border: solid black 1px;
-    display: inline-block;
-    transition: 0.3s;
-}
-
-#afbeeldingTekst {
-    font-family: sans-serif;
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-
-}
 
 a {
     color: black;
@@ -288,28 +215,227 @@ ul.thumb li img{
     box-shadow: 0 5px 25px rgba(0,0,0,.5); 
 }
 
-#kasten{
+
+
+
+#footer{
+background-color: rgba(21, 65, 1, 0.75);;
+height: 40vh;
+width: 100%;
+color: white;
+}
+
+#specialist{
+    color: rgb(142, 56, 2);
+    font-size: 30px;
+   font-family:fantasy;
+   top: 30px;
+   display: inline-block;
+}
+
+#tekstSpecialist{
+    font-size: 15px;
+    top: 15px;
+  
+    display: inline-block;
+}
+
+#contact{
+    color: rgb(142, 56, 2);
+    font-size: 30px;
+   font-family:fantasy;
+   bottom: 85px;
+
+   display: block;
+}
+
+
+#contactTekst{
+    font-size: 15px;
+   bottom: 85px;
+   display: inline-block;
+}
+
+.product9 {
+    height: 400px;
+    width: 420px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 180px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
+    border: solid black 1px;
+    transition: 0.3s;
+color: black;
+}
+.product9:hover {
+    height: 450px;
+    width: 470px;
+    background-color: rgb(0, 101, 10);
+    margin-top: 80px;
+    margin-left: 180px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
+    border: solid black 1px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+
+#contactblok{
+    display: inline-block;
+    margin-left: 900px;
+    margin-top: -100px;
+    vertical-align: top;
+}
+
+#specialistblok{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#profielFoto{
+position: relative;
+left: 800px;
+}
+
+#profielFoto p{
+    font-size: 15px;
     position: relative;
-    bottom: 1050px;
+    right: 490px;
+    bottom: 390px;
+    text-align: left;
+    border: 2px solid rgb(0, 41, 12);
+    background-color: rgb(0, 98, 30);
+}
+
+.placeholder{
+   width: 400px;
+ height: 300px;
+ margin: 40px;
+}
+
+#klantTitle{
+    margin-left: 400px;
+}
+
+/* review 1 */
+
+.reviewbox{
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    box-shadow: black;
+    color: black;
+    position: relative;
+}
+
+.reviewbox img{
+width: 150px;
+float: right;
+}
+
+.reviewbox p{
     float: left;
-    margin-left: 20px;
-}
-#kopen{
-    color: black;
-    position: relative;
-    bottom: 1000px;
-    width: 300px;
-    left: 50px;
+    border: 1px solid black;
 }
 
-#copyright2{
-    color: black;
-    position: relative;
-    right: 300px;
-    top: 950px;
+#reviewTekst{
+    font-size: medium;
 }
 
-#informatieProduct{
+/* review 2 */
+
+.reviewbox2{
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    box-shadow: black;
+    color: black;
     position: relative;
-    bottom: 1000px;
+    top: 220px;
+    left: 63px;
 }
+
+.reviewbox2 img{
+    width: 150px;
+    float: right;
+    }
+    
+    .reviewbox2 p{
+        float: left;
+        border: 1px solid black;
+    }
+    
+    #reviewTekst2{
+        font-size: medium;
+    }
+
+/* review 3 */
+
+.reviewbox3{
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    box-shadow: black;
+    color: black;
+    position: relative;
+    top: 200px;
+}
+
+.reviewbox3 img{
+    width: 150px;
+    float: right;
+    }
+    
+    .reviewbox3 p{
+        float: left;
+        border: 1px solid black;
+    }
+    
+    #reviewTekst3{
+        font-size: medium;
+    }
+
+    #dienstenTitle{
+     position: relative;
+     left: 500px;
+    }
+
+    #tuinieren1{
+        width: 500px;
+        height: 400px;
+        position: relative;
+        left: 460px;
+        top: 100px;
+    }
+
+    #tuinierenTekst{
+        font-size: medium;
+        width: 70%;
+        height: 400px;
+        position: relative;
+        right: 178px;
+        top: -300px;
+    }
+
+    #diensten2{
+        height: 400px;
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    #tuinierenTekst2{
+        font-size: medium;
+        width: 600px;
+        height: 400px;
+        position: relative;
+      left: 60px;
+    }
+
+    .banner2 {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(34, 105, 1, 0.75), rgba(0, 0, 0, 0.75)), url(backgrou.jpg);
+        background-size: cover;
+        background-position: center;
+    
+    }
