@@ -13,5 +13,5 @@ ook de logboeken, en alle andere documentatie komt hier te staan.
 
 ---
 
-## Om de site te zien, pull/clone de repo. Open daarna de repo met Visual Studio Code, en gebruik dan Live Server
+Om de site te zien, pull/clone de repo. Open daarna de repo met Visual Studio Code, en gebruik dan Live Server
 (Extension) op index.html
