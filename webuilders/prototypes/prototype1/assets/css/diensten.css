@@ -1,0 +1,51 @@
+#header {
+    background-color: #dad9dd;
+    height: 30vh;
+    width: 100%;
+}
+
+#text {
+    margin-top: 7vh;
+    margin-right: 3%;
+    float: right;
+}
+
+#text h1, #text h6 {
+    margin: 0;
+}
+
+#text h1 {
+    float: right;
+}
+
+#container {
+    margin: 2% auto;
+    width: 75%;
+}
+
+#diensten h2 {
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+#diensten p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#voorbeeldt {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#voorbeelden {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#voorbeelden img {
+    max-width: 75%;
+    margin: 1%;
+}

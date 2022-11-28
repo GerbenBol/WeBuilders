@@ -1,0 +1,65 @@
+#header {
+    background-color: #dad9dd;
+    height: 30vh;
+    width: 100%;
+}
+
+#text {
+    margin-top: 7vh;
+    margin-right: 3%;
+    float: right;
+}
+
+#text h1, #text h6 {
+    margin: 0;
+}
+
+#text h6 {
+    float: right;
+}
+
+#container {
+    width: 75%;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#place, #contact, #times {
+    width: 30%;
+}
+
+.headert {
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.infot {
+    font-size: 1rem;
+    margin: 0;
+}
+
+#details {
+    width: 75%;
+    margin: 3% auto;
+}
+
+#details img {
+    float: right;
+    margin: 1%;
+}
+
+#slideshow {
+    width: 40%;
+}
+
+#img {
+    max-width: 300px;
+    opacity: 0.01;
+}

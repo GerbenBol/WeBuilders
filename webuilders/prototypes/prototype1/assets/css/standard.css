@@ -39,6 +39,7 @@ body {
 
 .active {
     background-color: #4c4b5c;
+    cursor: default;
 }
 
 /* content (automatic margin for navbar and footer) */
@@ -48,11 +49,13 @@ body {
 }
 
 /* footer */
-#footer {
+#stick {
     width: 100%;
     position: fixed;
     bottom: 0;
     font-size: 1rem;
+    background-color: #4c4b5c;
+    color: white;
 }
 
 #flex {
@@ -61,6 +64,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    margin-bottom: 2rem;
 }
 
 .footer-item {
