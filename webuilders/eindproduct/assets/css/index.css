@@ -26,6 +26,7 @@
 .logo {
     width: 120px;
     cursor: pointer;
+    background-color: rgb(182, 254, 182);
 }
 
 .navbar ul li {
@@ -66,6 +67,7 @@
     height: 100vh;
     text-align: center;
     color: #fff;
+  
 }
 
 .content h1 {
@@ -439,4 +441,9 @@ float: right;
         background-size: cover;
         background-position: center;
     
+    }
+
+    .content p{
+      max-width: 900px;
+      background-color: rgb(0, 90, 30);
     }
