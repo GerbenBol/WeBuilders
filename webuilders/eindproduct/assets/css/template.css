@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
 body{
+    font-family: "merriweather";
     margin: 0;
     background-image: linear-gradient(white, rgb(190, 255, 190));
 }
@@ -46,6 +48,7 @@ header{
 }
 
 #navigation{
+    border: 1px black solid;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -63,7 +66,15 @@ header{
 #navigation > a:hover{
     color: darkseagreen;
 }
-
+.hamburger{
+    display: none;
+    max-width: 90%;
+    max-height: 90%;
+    background-image: url("../images/ham.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 #header-bottom{
     display: flex;
     align-items: center;
@@ -115,9 +126,26 @@ header{
 #footer-bottom > p{
     font-size: 1em;
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 900px) {
     #footer-top{
         flex-wrap: wrap;
         flex-direction: column-reverse;
+        justify-content: center;
+    }
+    #navigation > a{
+        position: relative;
+        display: none;
+    }
+    #navigation{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .hamburger{
+        right: 1%;
+        width: 50px;
+        height: 90%;
+        position: relative;
+        display: flex;
     }
 }
