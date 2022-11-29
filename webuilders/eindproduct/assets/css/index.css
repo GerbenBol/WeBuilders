@@ -80,7 +80,6 @@
     margin: 1% auto;
     font-weight: 100;
     line-height: 25px;
-
 }
 
 button {
@@ -128,97 +127,9 @@ button {
 
 #copyright {
     font-size: 11px;
-    position: relative;
-    bottom: -120px;
     text-align: center;
+    background-color: transparent;
 }
-
-.product1 {
-    height: 400px;
-    width: 420px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 80px;
-    margin-left: 120px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
-    border: solid black 1px;
-    transition: 0.3s;
-    color: black;
-
-}
-
-.product1:hover {
-    height: 450px;
-    width: 470px;
-    background-color: rgb(0, 101, 10);
-    margin-top: 80px;
-    margin-left: 60px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
-    border: solid black 1px;
-    display: inline-block;
-    transition: 0.3s;
-}
-
-
-a {
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-#link a {
-    color: rgb(0, 0, 99);
-    font-size: 15px;
-    font-family: graphik, arial, helvetica, sans-serif;
-}
-
-.banner2 {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
-.content2 {
-    width: 100%;
-    height: 100vh;
-    text-align: left;
-    color: rgb(0, 0, 0);
-    margin-left: 60px;
-    position: relative;
-    bottom: 500px;
-}
-
-.imgBox{
-    width: 720px;
-    margin: 50px  auto 20px;
-}
-
-.imgBox img{
-    width: 100%;
-    border: 4px solid #fff;
-    box-shadow: 0 5px 25px rgba(0,0,0,.5);
-    max-width: 700px;
-}
-
-ul.thumb{
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-ul.thumb li{
-list-style: none;
-margin: 0 15px;
-}
-
-ul.thumb li img{
-    border: 4px solid #fff;
-    box-shadow: 0 5px 25px rgba(0,0,0,.5); 
-}
-
-
 
 
 #footer{
@@ -443,7 +354,118 @@ float: right;
     
     }
 
-    .content p{
-      max-width: 900px;
-      background-color: rgb(0, 90, 30);
+
+    #welkom{
+        max-width: 900px;
+    
+        font-family:serif;
+
     }
+
+
+    @media(max-width: 767px){
+        #welkom{
+          font-size: 0;
+          background-color: transparent;
+          border: none;
+        }
+      }
+
+      @media(max-width: 400px){
+        .content h1{
+          font-size: 40px;
+        }
+      }
+
+
+
+
+
+
+/*all footer styles*/
+#footer-top{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 100%;
+    min-height: 20%;
+    height: 210px;
+    background: rgb(81, 164, 81);
+}
+
+#footer-top > div{
+    min-width: 25%;
+}
+
+.h2-white{
+    color: white;
+}
+
+/*everything under the white class will be white*/
+.white > *{
+    color: white;
+    text-decoration: none;
+}
+
+/*list in de footer gets margin*/
+.white > li{
+    margin: 3%;
+}
+
+#footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7bba7b;
+}
+
+#footer-bottom > p{
+    font-size: 1em;
+}
+@media screen and (max-width: 1080px) {
+    #navigation > a{
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 920px) {
+    #footer-top{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    #navigation > a{
+        font-size: 2rem;
+        text-align: center;
+        margin: 5vh;
+        border: 1vw solid black;
+        width: 80%;
+    }
+    #navigation{
+        background-color: white;
+        position: absolute;
+        top: 0;
+        flex-wrap: nowrap;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .checkbtn{
+        position: relative;
+        z-index: 1;
+        display: block;
+        color: forestgreen;
+        font-size: 2rem;
+    }
+    #check:checked ~ #navigation{
+        display: flex;
+    }
+}
+
+
+
+
+
+
