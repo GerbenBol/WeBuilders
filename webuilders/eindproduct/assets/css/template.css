@@ -56,9 +56,14 @@ header{
     min-width: 60%;
     height: 100%;
 }
-
+#check{
+    display: none;
+}
+.checkbtn{
+    display: none;
+}
 #navigation > a{
-    font-size: 150%;
+    font-size: 1.5rem;
     color: forestgreen;
     text-shadow: gray 1px 1px 20px;
 }
@@ -126,26 +131,43 @@ header{
 #footer-bottom > p{
     font-size: 1em;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
+    #navigation > a{
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 920px) {
     #footer-top{
         flex-wrap: wrap;
         flex-direction: column-reverse;
         justify-content: center;
     }
     #navigation > a{
-        position: relative;
-        display: none;
+        font-size: 2rem;
+        text-align: center;
+        margin: 5vh;
+        border: 1vw solid black;
+        width: 80%;
     }
     #navigation{
-        display: flex;
-        justify-content: end;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        flex-wrap: nowrap;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        justify-content: start;
         align-items: center;
     }
-    .hamburger{
-        right: 1%;
-        width: 50px;
-        height: 90%;
+    .checkbtn{
         position: relative;
+        z-index: 1;
+        display: block;
+        color: forestgreen;
+        font-size: 2rem;
+    }
+    #check:checked ~ #navigation{
         display: flex;
     }
 }
