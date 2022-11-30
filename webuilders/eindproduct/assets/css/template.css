@@ -113,11 +113,14 @@ header{
     min-height: 20%;
     background: darkseagreen;
 }
-
+#footer-top > .logo{
+    min-width: 15vw;
+    height: 30vh;
+}
 #footer-top > div{
+    margin: auto;
     min-width: 25%;
 }
-
 .h2-white{
     color: white;
 }
@@ -130,9 +133,9 @@ header{
 
 /*list in de footer gets margin*/
 .white > li{
-    margin: 3vh;
+    margin: 2vh;
+    font-size: 1.6vw;
 }
-
 #footer-bottom{
     display: flex;
     align-items: center;
@@ -189,11 +192,17 @@ header{
         align-items: stretch;
         justify-content: center;
     }
-    li > *{
-        font-size: 0.7rem;
+    .white > li > *{
+        font-size: 0.9rem;
+    }
+    .h2-white{
+        text-align: center;
     }
     h1{
         font-size: 5.5rem;
+    }
+    #footer-top > .logo{
+        display: none;
     }
 }
 @media screen and (max-width: 450px) {
