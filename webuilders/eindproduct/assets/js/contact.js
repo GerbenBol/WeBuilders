@@ -10,7 +10,7 @@ function sendData() {
         addToString(elems[4]);
 
     localStorage.setItem("form_data", storage);
-    document.getElementById("sentp").style.visibility = "visible";
+    document.getElementById("sentp").style.display = "initial";
 
     for (let i = 0; i < elems.length; i++) {
         document.getElementById(elems[i]).value = "";

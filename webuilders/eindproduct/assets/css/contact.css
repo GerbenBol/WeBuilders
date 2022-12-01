@@ -16,7 +16,7 @@
 }
 
 #left {
-    margin: auto;
+    margin: 0 auto;
     width: 60%;
 }
 
@@ -86,7 +86,7 @@ input[type="text"] {
     float: right;
     margin-top: 15%;
     margin-right: -31.5%;
-    visibility: hidden;
+    display: none;
 }
 
 /* media queries */
@@ -171,11 +171,13 @@ input[type="text"] {
 
     #button {
         width: 93%;
+        margin-top: 20%;
         margin-bottom: 5%;
     }
 
     #submit {
         margin-top: 20%;
+        margin-bottom: 5%;
     }
 }
 
