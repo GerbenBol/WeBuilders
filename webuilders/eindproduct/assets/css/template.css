@@ -21,7 +21,7 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 10%;
-    height: 100%;
+    height: 5rem;
 }
 
 .logo > div {
@@ -79,16 +79,6 @@ header {
 
 #navigation > a:hover {
     color: darkseagreen;
-}
-
-.hamburger {
-    display: none;
-    max-width: 90%;
-    max-height: 90%;
-    background-image: url("../images/ham.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 #header-bottom {
