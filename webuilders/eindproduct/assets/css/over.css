@@ -23,7 +23,7 @@ p {
 .content {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 75%;
     min-height: 40%;
 }
 
@@ -45,7 +45,7 @@ p {
         width: 90%;
         margin: auto;
     }
-    
+
     .content > div {
         width: 100%;
     }
