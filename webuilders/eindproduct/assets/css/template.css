@@ -34,7 +34,7 @@ h1{
 .logo > div{
     width: 90%;
     height: 90%;
-    background-image: url("../index_images/homeButton.png");
+    background-image: url("../images/logo.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
