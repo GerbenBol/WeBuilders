@@ -19,7 +19,6 @@
 .navbar {
     width: 100%;
     margin: auto;
-    padding: 35px 400;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,8 +84,6 @@ button {
     margin: 20px 1px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px soldid #009688;
-    background: transparent;
     color: rgb(0, 0, 0);
     cursor: pointer;
     background-color: lightgreen;
@@ -144,7 +141,7 @@ footer {
     #footer-top {
         flex-wrap: wrap;
         flex-direction: column-reverse;
-        align-items: stretch;
+        align-items: center;
         justify-content: center;
     }
 
